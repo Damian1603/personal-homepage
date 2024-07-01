@@ -12,7 +12,7 @@ box-sizing: inherit;
 
 body {
   font-family: "Inter", sans-serif;
-  transition: background 0.3s;
+  transition: background 0.7s;
   background: ${({ theme }) => theme.colors.site.background};
   color: ${({ theme }) => theme.colors.site.text};
   font-size: 18px;

@@ -5,14 +5,17 @@ const colorNames = {
     scienceBlue: "#0366d6",
     black: "#000000",
     slateGray: "#6e7e91",
-    mineShaft: "#252525",  
-    white: "#ffffff", 
+    mineShaft: "#252525",
+    white: "#ffffff",
     dodgerBlue: "#2188ff",
     mercury: "#e5e5e5",
     violet: "#090a3308",
     iron: "#d1d5da",
-    lightBlue: "rgba(3, 101, 214, 0.2)",
-    lightMineShaft: "#9c9c9c"
+    lightBlue: "hsla(212, 97.20%, 42.50%, 0.20)",
+    lightMineShaft: "#9c9c9c",
+    shaft: "#363636",
+    borderShaft: " rgba(209, 213, 218, 0.1)",
+    borderHover: "rgba(3, 102, 214, 0.5)"
 };
 
 const common = {
@@ -22,7 +25,6 @@ const common = {
         tabletHorizontalMax: 1199,
     },
     boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
-    borderRadiusSmall: "4px",
 };
 
 export const themeLight = {
@@ -31,8 +33,8 @@ export const themeLight = {
         primary: colorNames.scienceBlue,
         textPrimary: colorNames.mineShaft,
         site: {
-          background: colorNames.whiteLilac,
-          text: colorNames.slateGray,  
+            background: colorNames.whiteLilac,
+            text: colorNames.slateGray,
         },
         buttonLink: {
             text: colorNames.white,
@@ -42,15 +44,19 @@ export const themeLight = {
         boxBackground: colorNames.white,
         headerLine: colorNames.mercury,
         tile: {
-            border: colorNames.porcelain,
+            border: colorNames.iron,
             borderHover: colorNames.lightBlue,
             header: colorNames.scienceBlue,
-        }, 
+        },
         themeSwitch: {
             background: colorNames.mercury,
             backgroundIcon: colorNames.slateGray,
             icon: colorNames.white,
+            border: colorNames.slateGray
         },
+        warningInfo: {
+            text: colorNames.black
+        }
     },
 };
 
@@ -68,17 +74,21 @@ export const themeDark = {
             border: colorNames.ironTransparent,
             shadow: colorNames.shipCove,
         },
-        boxBackground: colorNames.mineShaftLighter,
+        boxBackground: colorNames.shaft,
         headerLine: colorNames.tundora,
         tile: {
-            border:colorNames.tundora,
-            borderHover: colorNames.blumine,
-            header: colorNames.white,
+            border: colorNames.borderShaft,
+            borderHover: colorNames.borderHover,
+            header: colorNames.scienceBlue,
         },
         themeSwitch: {
             background: colorNames.lightMineShaft,
             backgroundIcon: colorNames.white,
-            icon: colorNames.black,
+            icon: colorNames.mineShaft,
+            border: colorNames.white
         },
+        warningInfo: {
+            text: colorNames.white
+        }
     },
 };

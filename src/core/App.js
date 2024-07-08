@@ -4,6 +4,7 @@ import { selectIsDarkTheme } from "../features/PersonalHomepage/Header/ThemeButt
 import { useSelector } from "react-redux";
 import { themeDark, themeLight } from "../theme";
 import { GlobalStyles } from "../GlobalStyles"
+import { Normalize } from "styled-normalize";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
+      <Normalize />
       <GlobalStyles />
       <PersonalHomepage />
     </ThemeProvider>

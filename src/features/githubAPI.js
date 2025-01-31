@@ -1,1 +1,1 @@
-export const githubAPIURL = "https://api.github.com/users/Damian1603/repos";
+export const githubAPIURL = "https://api.github.com";

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/static/js/main.4ecc4ee5.js",
+    "static/js/453.61d4ab14.chunk.js": "/static/js/453.61d4ab14.chunk.js",
+    "static/media/damian.jpg": "/static/media/damian.33d1afda50f46289a1a7.jpg",
+    "static/media/Instagram_black.svg": "/static/media/Instagram_black.045f877059dbe73be6ce3c598a6f4f4b.svg",
+    "static/media/brightness 1.svg": "/static/media/brightness 1.96d8e16886025bb43f62af3a0d7c1fb2.svg",
+    "static/media/Github_black.svg": "/static/media/Github_black.195539cffcb5beb81c575e24042475c5.svg",
+    "static/media/github.svg": "/static/media/github.571d1ccb5b05142ffef2ab4d835a907a.svg",
+    "static/media/Danger.svg": "/static/media/Danger.71691bf0db752d421212c6ba7b74dee6.svg",
+    "static/media/LinkedIN_black.svg": "/static/media/LinkedIN_black.fa7c0ae7c89c08ccaf3f204f2a4cf263.svg",
+    "static/media/Message.svg": "/static/media/Message.4f12dcc445764aefd1b5362f9301f88a.svg",
+    "index.html": "/index.html",
+    "static/media/Facebook_black.svg": "/static/media/Facebook_black.256a8e27f85ff909c10483712152c537.svg",
+    "static/media/Ellipse 1.svg": "/static/media/Ellipse 1.386af6d18a442c28131a08b70ccf9b68.svg",
+    "static/media/Ellipse 31.svg": "/static/media/Ellipse 31.c28602c8be31d96b4a27bc3627dd6f6f.svg",
+    "main.4ecc4ee5.js.map": "/static/js/main.4ecc4ee5.js.map",
+    "453.61d4ab14.chunk.js.map": "/static/js/453.61d4ab14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4ecc4ee5.js"
+  ]
+}
